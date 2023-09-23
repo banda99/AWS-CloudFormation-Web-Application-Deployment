@@ -1,5 +1,5 @@
-# CS4843 Assignment 2
-In assignment 2 we were asked to deploy a highly available web application using AWS CloudFormation by writing the code that creates and deploys the infrastructure. This is achieved by using a internet gateway  that allows us to connect and access a virtual private cloud  where traffic flows and is associated to an elastic load balancer and requests access oto the NAT's gateway entrances which contain the public subnets that grant you access to the private subnets where the web application is located.
+# AWS CloudFormation Web Application Deployment
+Deploying a highly available web application using AWS CloudFormation by writing the code that creates and deploys the infrastructure. This is achieved by using a internet gateway  that allows us to connect and access a virtual private cloud  where traffic flows and is associated to an elastic load balancer and requests access oto the NAT's gateway entrances which contain the public subnets that grant you access to the private subnets where the web application is located.
 
 ## Infrastructure
 ### create.sh 
